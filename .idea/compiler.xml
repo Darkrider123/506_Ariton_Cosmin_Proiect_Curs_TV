@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="TV_Proiect_Curs_Ariton_Cosmin" />
+        <module name="TV_NOW" />
+        <module name="506_Ariton_Cosmin_Proiect_Curs_TV" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

@@ -1,0 +1,1 @@
+java -jar evosuite-1.0.6.jar %*

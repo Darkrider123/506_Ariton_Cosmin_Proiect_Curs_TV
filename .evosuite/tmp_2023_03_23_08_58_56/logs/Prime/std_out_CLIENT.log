@@ -1,0 +1,76 @@
+* Starting client
+* Connecting to master process on port 7138
+* Analyzing classpath: 
+  - C:\Users\Ariton\Desktop\Workspace\506_Ariton_Cosmin_Proiect_Curs_TV\target\test-classes
+  - C:\Users\Ariton\Desktop\Workspace\506_Ariton_Cosmin_Proiect_Curs_TV\target\classes
+  - C:\Users\Ariton\.m2\repository\junit\junit\4.12\junit-4.12.jar
+  - C:\Users\Ariton\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+* Finished analyzing classpath
+* Generating tests for class Prime
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Loaded 13 tests from C:\Users\Ariton\Desktop\Workspace\506_Ariton_Cosmin_Proiect_Curs_TV\.evosuite\evosuite-seeds\Prime.seed
+* Total number of test goals: 
+  - Line 18
+  - Branch 15
+  - Exception 0
+  - MutationFactory 61
+  - Output 3
+  - Method 2
+  - MethodNoException 2
+  - CBranchFitnessFactory 15
+* Using seed 1679554739755
+* Starting evolution
+* Search finished after 31s and 276 generations, 67710 statements, best individual has fitness: 3.25
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 100%
+* Total number of goals: 18
+* Number of covered goals: 18
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 15
+* Number of covered goals: 15
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 3
+* Number of covered goals: 3
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 93%
+* Total number of goals: 61
+* Number of covered goals: 57
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 67%
+* Total number of goals: 3
+* Number of covered goals: 2
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 100%
+* Total number of goals: 15
+* Number of covered goals: 15
+* Generated 10 tests with total length 29
+* Resulting test suite's coverage: 95% (average coverage for all fitness functions)
+* Generating assertions
+[MASTER] 08:59:44.208 [pool-2-thread-1] WARN  SimpleMutationAssertionGenerator - Reached maximum time to generate assertions, aborting assertion generation
+* Resulting test suite's mutation score: 55%
+* Compiling and checking tests
+* Writing JUnit test case 'Prime_ESTest' to C:\Users\Ariton\Desktop\Workspace\506_Ariton_Cosmin_Proiect_Curs_TV\.evosuite\tmp_2023_03_23_08_58_56\tests
+* Done!
+
